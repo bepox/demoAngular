@@ -10,7 +10,10 @@ export class UsersComponent implements OnInit {
 
   user : User = {
     id: 1,
-    name: 'Eray'
+    name: 'Eray',
+    job: 'Software Engineer',
+    interested: 'Greenpeace',
+    tags: 'machine learning'
   };
 
   ngOnInit(): void {
