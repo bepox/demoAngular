@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { User } from './user';
+import { USERS } from '../mock-users';
 
 @Component({
   selector: 'app-users',
@@ -8,14 +8,8 @@ import { User } from './user';
 })
 export class UsersComponent implements OnInit {
 
-  user : User = {
-    id: 1,
-    name: 'Eray',
-    job: 'Software Engineer',
-    interested: 'Greenpeace',
-    tags: 'machine learning'
-  };
-
+  users = USERS;
+  
   ngOnInit(): void {
   }
   
