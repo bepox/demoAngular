@@ -10,6 +10,7 @@ export const USERS: User[] = [
     { id: 17, name: 'Serhat', job: 'Researcher', tags: 'Space'  },
     { id: 18, name: 'Ali', job: 'Researcher', tags: 'Software'  },
     { id: 19, name: 'Zafer', job: 'Software engineer', tags: 'machine learning'  },
-    { id: 20, name: 'Herif', job: 'Doctor', tags: 'Medicine'  }
+    { id: 20, name: 'Herif', job: 'Doctor', tags: 'Medicine'  },
+    { id: 21, name: 'Jack', job: 'Pharmacy', tags: 'Medicine'  }
   ];
   
